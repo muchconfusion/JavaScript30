@@ -43,7 +43,17 @@
 
 <button></button>
 <script>
+  const divs = document.querySelectorAll('div');
 
+  function logText(e) {
+    console.log(this.classList.value);
+    e.stopPropagation(); //Stops the bubble or capture at the first listen
+  }
+
+  divs.forEach(div => div.addEventListener('click', logText, {
+    capture: false, //True means on capture, it will call the on click functions
+    once: false //Will remove itself after one click. useful for store checkout.
+  }));
 </script>
 </body>
 </html>

@@ -80,3 +80,4 @@ Thanks!
 
 ## Completed Projects
 01 - JavaScript Drum Kit (06/25/2023)
+25 - Event Capture, Propagation, Bubbling, and Once (6/26/2023)
