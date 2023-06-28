@@ -81,3 +81,5 @@ Thanks!
 ## Completed Projects
 01 - JavaScript Drum Kit (06/25/2023)
 25 - Event Capture, Propagation, Bubbling, and Once (6/26/2023)
+04 - Array Cardio Day 1 (6/28/2023)
+07 - Array Cardio Day 2 (6/28/2023)
